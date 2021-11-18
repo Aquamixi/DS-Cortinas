@@ -1,0 +1,352 @@
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+footer{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px 0;
+}
+
+body{
+    margin-top: 82px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.imagem{
+    height: 50px;
+    width: 150px;
+}
+
+.form{
+    display: flex;
+    color: gold;
+    background-color: black;
+    padding-left: 90px;
+    padding-right: 160px;
+    padding-top: 55px;
+    padding-bottom: 165px;
+    max-height: 310px;
+    max-width: 500px;
+    font-family: Arial;
+    font-size: 12;
+}
+
+.form img{
+    position: fixed;
+    top: 82px;
+    right: 0;
+    height: 530px;
+    width: 880px;
+}
+
+.input{
+    padding: 5px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    background: black;
+    color: white;
+    border:1px solid gold;
+    width:200px;
+    height: 15px;
+}
+
+.nova_senha_input{
+    padding: 5px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    background: black;
+    color: white;
+    border:1px solid gold;
+    width:200px;
+    height: 15px;
+}
+
+.button{
+    position: absolute;
+    top: 270px;
+    right: 273px;
+    background-color: gold;
+    color: black;
+    border-width: 0px;
+    width:100px;
+    height: 50px;
+}
+
+.button1{
+    position: fixed;
+    left: 90px;
+    bottom: 100px;
+    background-color: gold;
+    color: black;
+    border-width: 0px;
+    width:100px;
+    height: 50px;
+}
+
+.button2{
+    position: fixed;
+    left: 200px;
+    bottom: 100px;
+    background-color: gold;
+    color: black;
+    border-width: 0px;
+    width:100px;
+    height: 50px;
+}
+
+.button3{
+    position: fixed;
+    left: 635px;
+    bottom: 230px;
+    background-color: gold;
+    color: black;
+    border-width: 0px;
+    width:100px;
+    height: 50px;
+}
+
+.button4{
+    position: absolute;
+    right: 20px;
+    bottom: 2px;
+    background-color: black;
+    color: gold;
+    width:160px;
+    height: 35px;
+    text-decoration: none;
+}
+
+.button5{
+    position: fixed;
+    left: 630px;
+    bottom: 200px;
+    background-color: gold;
+    color: black;
+    border-width: 0px;
+    width:100px;
+    height: 50px;
+}
+
+.button6{
+    position: fixed;
+    left: 50px;
+    bottom: 150px;
+    background-color: gold;
+    color: black;
+    border-width: 0px;
+    width:100px;
+    height: 50px;
+}
+
+.formContato{
+    display: absolute;
+    color: gold;
+    background-color: black;
+
+    padding-left: 50px;
+    padding-top: 50px;
+
+    max-height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 300px;
+
+    font-family: Arial;
+    font-size: 12;
+}
+
+.cadastro{
+    position: absolute;
+    right: 20px;
+    bottom: 13px;
+    background-color: black;
+    color: gold;
+    width:100px;
+    height: 35px;
+    text-decoration: none;
+}
+
+.sair{
+    position: absolute;
+    right: 20px;
+    bottom: 13px;
+    background-color: black;
+    color: gold;
+    width:100px;
+    height: 35px;
+    text-decoration: none;
+}
+
+.login{
+    position: absolute;
+    right: 120px;
+    bottom: 13px;
+    background-color: black;
+    color: gold;
+    width:100px;
+    height: 35px;
+    text-decoration: none;
+}
+
+.contato{
+    position: absolute;
+    left: 100px;
+    bottom: 13px;
+    background-color: black;
+    color: gold;
+    width:100px;
+    height: 35px;
+    text-decoration: none;
+}
+
+.sobre{
+    position: absolute;
+    left: 200px;
+    bottom: 13px;
+    background-color: black;
+    color: gold;
+    width:100px;
+    height: 35px;
+    text-decoration: none;
+}
+
+.home{
+    position: absolute;
+    left: 10px;
+    bottom: 13px;
+    background-color: black;
+    color: gold;
+    width:100px;
+    height: 35px;
+    text-decoration: none;
+}
+
+.linhaamarela{
+    position: fixed;
+    background-color: gold;
+    height: 13px;
+    width: 100%;
+    top: 69px;
+}
+
+.linhaamarelafooter{
+    position: relative;
+    background-color: gold;
+    height: 13px;
+    width: 100%;
+    bottom: 0px;
+}
+
+.erro{
+    padding: 2px;
+    color: red;
+}
+
+.mensagem{
+    padding: 2px;
+    color: gold;
+}
+
+.telaLogin{
+    background: url("/images/c3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1366px 530px;
+    height: 530px;
+}
+
+.telaContato{
+    margin-top: 80px;
+    background: url("/images/logoCerta1.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    height: 530px;
+}
+
+.fundoLogin{
+    position: relative;
+    left: 443px;
+    top: 100px;
+
+    color: gold;
+    background-color: black;
+
+    padding-top: 70px;
+    padding-bottom: 115px;
+    padding-left: 135px;
+
+    max-height: 300px;
+    max-width: 350px;
+
+    font-family: Arial;
+    font-size: 12;
+
+}
+
+.telaMudaSenha{
+    background: url("/images/c9.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1366px 530px;
+    height: 530px;
+}
+
+.fundoMudaSenha{
+    position: relative;
+    left: 443px;
+    top: 70px;
+
+    color: gold;
+    background-color: black;
+
+    padding-top: 70px;
+    padding-bottom: 115px;
+    padding-left: 135px;
+
+    max-height: 300px;
+    max-width: 350px;
+
+    font-family: Arial;
+    font-size: 12;
+
+}
+
+textarea{
+    padding: 5px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;
+    background: black;
+    color: white;
+    border:1px solid gold;
+    width:400px;
+    height: 100px;
+}
+
+.teste{
+    height: 1000px;
+}
